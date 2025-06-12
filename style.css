@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/*Mobile First*/
+
+* {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #f8aaaa;
+}
+
+div#carta {
+    display: block;
+    position: relative;
+}
+
+div img#carta-namorados {
+    /*Proporção carta fechada!*/
+    width: 250px;
+    height: 150px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
